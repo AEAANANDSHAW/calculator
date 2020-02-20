@@ -1,0 +1,71 @@
+
+				/* MAIN HEADING */
+
+@media screen and (max-width: 480px),(max-width: 500px),(max-width: 640px),(max-width: 720px){
+.main-heading{
+		font-size: 25px;
+	    padding: 15px;
+}
+}
+
+				/* MAIN DESCRIPTION */
+
+@media screen and (max-width: 480px),(max-width: 500px),(max-width: 640px),(max-width: 720px){
+	.main-description{
+		margin-left: 10%;
+		width: 80%;
+	}
+	.description-1{
+		margin-left: 15%;
+		font-size: 20px;
+	}
+	.description-2{
+		margin-left: 14%;
+		font-size: 15px;
+	}
+}
+
+
+				/* CALCULATOR LINKS */
+
+@media screen and (max-width: 480px),(max-width: 500px),(max-width: 640px),(max-width: 720px){
+	.calculater-links{
+		margin-left: 25%;
+		width: 50%;
+	}
+	.links-heading{
+		margin-left: 11%;
+		font-size: 20px;
+	}
+	.links-description{
+		text-align: center;
+		margin-left: 0;
+		margin-top: 60px;
+		font-size: 15px;
+	}
+
+	.link-1{
+		margin-left: 35%;
+		margin-top: 130px;
+	}
+	.link-1:hover{
+		margin-top: 128px;
+		margin-left: 34.5%;
+	}
+	.link-2{
+		margin-left: 15%;
+	}
+	.link-2:hover{
+		margin-left: 14.5%;
+	}
+}
+
+				/* FOOTER DIVISSION */
+
+@media screen and (max-width: 480px),(max-width: 500px),(max-width: 640px),(max-width: 720px){
+	.footer_description{
+		padding-top: 10px;
+		padding-left: 0%;
+		font-size: 20px;
+	}
+}

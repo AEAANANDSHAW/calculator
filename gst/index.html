@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="css/gst.css">
+        <title>GST Calculator</title>
+        <style>
+        body {
+    
+}
+
+.inp {
+    margin: 10px;
+   
+}
+
+label {
+    display: inline-block;
+    width: 200px;
+}
+
+input {
+
+}
+.myButton {
+	-moz-box-shadow:inset 0px 39px 0px -23px #e67a73;
+	-webkit-box-shadow:inset 0px 39px 0px -23px #e67a73;
+	box-shadow:inset 0px 39px 0px -23px #e67a73;
+	background-color:#e4685d;
+	-webkit-border-radius:16px;
+	-moz-border-radius:16px;
+	border-radius:16px;
+	border:2px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:28px;
+	padding:8px 20px;
+	text-decoration:none;
+	text-shadow:0px 1px 50px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+        </style>
+    </head>
+    <body>
+    <a href="https://www.youtube.com/channel/UCnv_tjm4UYvZFIEc8M2E2GQ" target="_blank" class="myButton">YouTube Channel</a>
+<a href="https://www.youtube.com/channel/UCnv_tjm4UYvZFIEc8M2E2GQ/playlists" target="_blank" class="myButton">YouTube Channel Playlists</a>
+<a href="https://www.youtube.com/channel/UCnv_tjm4UYvZFIEc8M2E2GQ/videos" target="_blank" class="myButton">YouTube Channel Videos</a>
+<br>
+<br>
+<br>
+<h1 style="text-color:green; text-align:center;">GST CALCULATOR</h1>
+        <div class="total-gst-divission">
+        <div class="inp">
+            <label for="price">Price (before GST): </label>
+            <input id="price" type="number" value="1" />
+        </div>
+        <div class="inp">
+            <label for="gst">GST rate (%): </label>
+            <input id="gst" type="number" value="0.6"  />
+        </div>
+        <div class="inp">
+            <button onclick="inpChange()">Calculate</button>
+        </div>
+        
+        <div class="inp">
+            <label for="priceGst">Price (GST inclusive) : </label>
+            <input id="priceGst" type="number" readonly />
+        </div>
+    </div>
+        
+        <script>
+            priceEle = document.getElementById("price");
+            gstEle = document.getElementById("gst");
+            priceGstEle = document.getElementById("priceGst");
+            
+            function calculateGst(price, tax) {
+                return (price * tax/100) + price;
+            }    
+            
+            function inpChange() {
+                if(!isNaN(priceEle.value) && !isNaN(gstEle.value)) {
+                    price = Number(priceEle.value);
+                    gst = Number(gstEle.value);
+                    priceGstEle.value = calculateGst(price, gst).toFixed(3);
+                }
+            }
+            
+            inpChange();
+            
+        </script>
+        
+    </body>
+</html>

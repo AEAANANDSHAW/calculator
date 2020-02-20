@@ -1,0 +1,141 @@
+html{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+}
+
+
+				/* MAIN HEADING */
+
+.main-heading{
+	margin: 0;
+	text-align: center;
+	color: white;
+	font-family: Arial, sans-serif;
+	font-size: 35px;
+	padding: 25px;
+	background-color: #081451;
+}
+
+					/* MAIN DESCRIPTION PORTION */
+
+.main-description{
+	position: absolute;
+	margin-top: 12px;
+	margin-left: 25%;
+	height: 85px;
+	width: 50%;
+    background-color: black;
+    opacity: .5;
+    border-radius: 20px;
+}
+.description-1, .description-2{
+	position: absolute;
+	margin: 0;
+	font-family: Arial, sans-serif;
+	color: white;
+}
+.description-1{
+    margin-top: 10px;
+	margin-left: 25%;
+	font-size: 25px;
+	border: 2px solid white;
+	padding: 5px;
+	transition: .3s;
+}
+.description-1:hover{
+	background-color: white;
+	border: 2px solid black;
+	color: black;
+	border-radius: 10px;
+}
+.description-2{
+	margin-top: 60px;
+	margin-left: 25.3%;
+	color: white;
+	font-size: 18px;
+}
+
+
+				/* CALCULATER LINKS */
+
+.calculater-links{
+	position: absolute;
+	margin-top: 108px;
+	margin-left: 30%;
+	height: 291.5px;
+	width: 40%;
+	background-color: #ffd5d5;
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+}
+.links-heading{
+	position: absolute;
+	font-family: Arial, sans-serif;
+	font-size: 28px;
+	margin-left: 27.5%;
+}
+.links-description{
+	position: absolute;
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+	color: red;
+	margin-top: 80px;
+	margin-left: 22%;
+}
+.link-1, .link-2{
+	position: absolute;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	text-decoration: none;
+	color: white;
+	background-color: orange;
+	box-shadow: inset 0px 1px 0px #e39606, inset -5px -5px 5px #e39606, inset -5px -5px 5px #e39606, inset 0 0 5px #e39606;
+	border-radius: 5px;
+}
+.link-1{
+	margin-top: 200px;
+	margin-left: 20%;
+	padding: 10px;
+	transition: .2s;
+}
+.link-1:hover{
+	margin-top: 198px;
+	margin-left: 19.5%;
+	padding: 13px;
+	box-shadow: inset 0px 1px 0px #e39606, inset -5px -5px 5px #e39606, inset -5px -5px 5px #e39606, inset 0 0 5px #e39606;
+}
+.link-2{
+	margin-top: 200px;
+	margin-left: 52%;
+	padding: 10px;
+	transition: .2s;
+}
+.link-2:hover{
+	margin-top: 198px;
+	margin-left: 51.5%;
+	padding: 13px;
+	box-shadow: inset 0px 1px 0px #e39606, inset -5px -5px 5px #e39606, inset -5px -5px 5px #e39606, inset 0 0 5px #e39606;
+}
+
+
+				/* FOOTER DIVISSION */
+
+.footer_divission{
+	 		position: absolute;
+	 		margin-top: 400px;
+	 		height: 100px;
+	 		width: 100%;
+	 		background-color: #948b83;
+	 	}
+.footer_description{
+	 		position: absolute;
+	 		color: white;
+	 		padding-top: 20px;
+	 		padding-left: 20%;
+	 		font-size: 25px;
+	 		text-align: center;
+	 	}
